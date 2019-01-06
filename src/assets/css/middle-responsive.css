@@ -1,0 +1,100 @@
+@media(max-width: 1024px){
+	.import-excel button{
+		padding: 10px 10px;
+	}
+
+	.pagination > li > a, .pagination > li > span{
+	padding: 6px 10px;
+}
+
+}
+
+
+@media(max-width: 800px){
+	.custom-y-md{
+	display: block;
+}
+
+.traning-table-section {
+    overflow: auto;
+}
+
+.master-nav-screen ul li a.active:after{
+	display: none;
+}
+
+.import-excel button {
+    padding: 10px 7px;
+}
+
+.pagination-sec{
+	text-align: center;
+}
+
+.import-excel button{
+	margin-left: 0px;
+}
+
+.globel-master input, .globel-master select{
+	width: 100%;
+}
+
+.globel-master button{
+	background: #000;
+    border: none;
+    color: #fff;
+    padding: 9px 15px;
+    position: absolute;
+    top: 0px;
+    outline: none;
+    right: 0px;
+}
+
+}
+
+@media(max-width: 767px){
+
+.right-panel-main-db{
+	padding: 10px 5px;
+}
+.user-cont-r h4{
+	font-size: 11px;
+}
+
+.modal-dialog{
+	margin: 100px auto;
+}
+
+.master-nav-screen button{
+	width: 100%;
+	float: none;
+}
+
+.other-master{
+	width: 100%;
+}
+
+.globel-master input, .globel-master select{
+	width: 100%;
+}
+
+.globel-master button{
+	width: 100%;
+	right: 0px;
+}
+
+.import-excel {
+    text-align: center;
+    padding: 10px 0px 20px;
+}
+
+.pagination-sec{
+	text-align: center;
+}
+
+.globel-master button{
+	position: relative;
+}
+
+}
+

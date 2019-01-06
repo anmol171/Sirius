@@ -1,0 +1,650 @@
+.error {
+  color: red;
+  font-size: 12px;
+  padding: 4px 0px;
+  display: block;
+  position: absolute;
+}
+
+.user-screen-popup .form-group {
+    margin-bottom: 25px;
+}
+
+.user-screen-popup {
+  width: 100%;
+}
+
+.user-screen-popup button {
+  text-align: right;
+}
+
+.user-screen-popup button[type=submit] {
+  text-align: right;
+  float: right;
+  background: #3396d0;
+  color: #fff;
+  padding: 9px 25px;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+
+.user-screen-popup button[type=submit]:hover {
+  background: #32343b;
+}
+
+.user-screen-popup input, .user-screen-popup select {
+    width: 100%;
+    border-radius: 0px;
+    font-size: 13px;
+    height: 40px;
+    border: 1px solid #acadb1;
+    color: #999;
+    font-weight: normal;
+}
+
+
+.user-screen table tbody tr td {
+    border: 1px solid #d5d3d3;
+    padding: 7px 15px;
+    text-align: center;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.user-screen table tbody tr td button {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 2px 8px;
+} 
+
+.btn-floating.btn-large {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background-color: #1e212d;
+    border-radius: 50%;
+    right: 30px;
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    transition: 1s;
+    color: #fff;
+    font-size: 12px;
+    line-height: 42px;
+    webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}  
+
+.btn-floating.btn-large:hover{
+  background: #0096d0;
+}
+
+
+.switch {
+    display: inline-block;
+    width: 45px;
+    height: 16px;
+    margin-bottom: 0px;
+    top: 4px;
+    position: relative;
+}
+
+
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f17c7c;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 12px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.user-screen input:checked + .slider {
+  background-color: #4c4e55;
+}
+
+.user-screen input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.user-screen input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 
+
+
+
+/*=====change-password======*/
+
+
+
+.modal-header.custom-m-chang {
+    background: #323641;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+button.close.cus-close {
+    color: #fff;
+    opacity: 0.9;
+    outline: none;
+}
+
+.modal-dialog{
+  margin: 140px auto;
+}
+
+.login-section input {
+    width: 100%;
+    border-radius: 0px;
+    font-size: 13px;
+    height: 40px;
+    border: 1px solid #acadb1;
+    color: #999;
+    font-weight: normal;
+}
+
+
+.col-md-12.l-btn {
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+.login-section button {
+    border: none;
+    background: #323641;
+    color: #fff;
+    padding: 8px 20px;
+    float: right;
+    margin-left: 10px;
+}
+
+.login-section button:hover{
+  background: #3396d0;
+}
+
+.login-section {
+    padding: 5px;
+}
+
+.modal-header.custom-m-chang h4 {
+    font-size: 14px;
+    padding: 1px 10px;
+    font-weight: bold;
+}
+
+button.Confirm {
+    background: #3396d0;
+    transition: 0.5s;
+}
+
+button.Confirm:hover{
+  background: #323641;
+}
+
+
+/*====middle-section=====*/
+
+.master-nav-screen{
+    margin: 0px;
+    padding: 0px 0px;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.master-nav-screen ul{
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.master-nav-screen ul li{
+  display: inline-block;
+}
+
+.master-nav-screen ul li a{
+  font-size: 13px;
+  color: #000;
+  padding: 17px 18px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.master-nav-screen ul li a.active{
+    color: #fff;
+    background: #3396d0;
+    position: relative;
+}
+
+.master-nav-screen ul li a.active:after, .master-nav-screen ul li a.active:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.master-nav-screen ul li a.active:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #3396d0;
+  border-width: 20px;
+  margin-left: -20px;
+}
+
+.master-nav-screen ul li a.active:after:hover {
+  border-top-color: #36393f;
+}
+
+.master-nav-screen ul li a:hover{
+    color: #fff;
+    background: #3396d0;
+}
+
+.master-nav-screen button {
+    float: right;
+    top: 0px;
+    background: #36393f;
+    border: none;
+    color: #fff;
+    padding: 17px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.other-master {
+    width: 220px;
+    background: #474b58;
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+    top: 52px;
+    display: none;
+}
+
+.other-master ul {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-align: left;
+}
+
+.other-master ul li {
+    display: block;
+}
+
+.other-master ul li a {
+    padding: 10px 12px;
+    display: block;
+    border-bottom: 1px solid #656773;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.other-master ul li a:hover {
+    background: #3396d0;
+    color: #fff;
+}
+
+/*========master-product=========*/
+
+.user-screen-popup .form-group {
+    margin-bottom: 25px;
+}
+
+.user-screen-popup {
+  width: 100%;
+}
+
+.user-screen-popup button {
+  text-align: right;
+}
+
+.user-screen-popup button[type=submit] {
+  text-align: right;
+  float: right;
+  background: #3396d0;
+  color: #fff;
+  padding: 9px 25px;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+
+.user-screen-popup button[type=submit]:hover {
+  background: #32343b;
+}
+
+.user-screen-popup input, .user-screen-popup select {
+    width: 100%;
+    border-radius: 0px;
+    font-size: 13px;
+    height: 40px;
+    border: 1px solid #acadb1;
+    color: #999;
+    font-weight: normal;
+}
+
+.user-screen table thead tr th {
+    background: #225990;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    border-right: 1px solid #387ebf;
+}
+
+.user-screen table tbody tr td button {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 2px 8px;
+} 
+
+.traning-table-section {
+    width: 100%;
+    overflow: auto;
+}
+
+.user-screen table tbody tr td input {
+    height: 35px;
+    padding: 5px 10px;
+    border: 1px #d2cece solid;
+}
+
+.user-screen table tbody tr td select {
+    height: 35px;
+    padding: 5px 10px;
+    color: #7e7d7d;
+}
+ 
+ .globel-master {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 15px;
+}
+
+.globel-master input, .globel-master select {
+    height: 38px;
+    padding: 10px;
+    font-size: 13px;
+    width: 300px;
+    color: #7e7d7d;
+    margin-bottom: 5px;
+}
+
+.globel-master button {
+    background: #000;
+    border: none;
+    color: #fff;
+    padding: 9px 15px;
+    position: relative;
+    right: 4px;
+    outline: none;
+}   
+
+
+.pagination-sec {
+    width: 100%;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.import-excel {
+    text-align: left;
+}
+
+.pagination-sec ul {
+    margin: 0px;
+}
+
+.import-excel button {
+    color: #fff;
+    background: #000;
+    border: none;
+    font-size: 12px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    outline: none;
+    transition: 0.5s;
+}
+
+.import-excel button:hover{
+   background: #3396d0;
+}
+
+button.custom-btn-ex {
+    background: #3396d0;
+    transition: 0.5s;
+}
+
+button.custom-btn-ex:hover{
+  background: #000;
+}
+
+.pagination-sec select {
+    height: 38px;
+    padding: 10px;
+    font-size: 13px;
+    width: 100%;
+    color: #7e7d7d;
+    margin-bottom: 5px;
+}
+
+
+.user-screen table tbody tr td input[type=checkbox]{
+  height: auto;
+}
+
+
+/*===add-location=====*/
+
+
+.mapped-lctn {
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.mapped-lctn h3 {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    background: #fff;
+    padding: 0px 10px;
+    position: relative;
+    top: -12px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.cutom-mapd-loction {
+    width: 100%;
+    text-align: left;
+    padding: 6px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cutom-mapd-loction input {
+    width: 18px;
+    float: left;
+    display: inline-block;
+    height: auto;
+    margin-right:5px;
+}
+
+.cutom-mapd-loction label span {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.cutom-mapd-loction:last-child{
+  border-bottom: none;
+}
+
+
+
+/*=========lane===========*/
+
+.custom-lane-in-s h4 {
+    font-weight: 600;
+    position: relative;
+    margin-top: 3px;
+    font-size: 13px;
+    color: #333;
+}
+
+.custom-lane-in-s {
+    width: 100%;
+    padding: 12px 15px;
+    position: relative;
+}
+
+.plant-vendor-h {
+    width: 100%;
+    background:transparent;
+}
+
+.plant-vendor-h h3 {
+    margin: 0px;
+    padding: 12px 0px 12px 15px;
+    border-bottom: 1px solid #323641;
+    margin-bottom: 15px;
+    font-size: 15px;
+    background: #323641;
+    color: #fff;
+}
+
+
+.dot {
+    background: #000;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: -7px;
+    margin-left: 15px;
+}
+
+.dot2 {
+    background: #000;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 19px;
+    left: 5px;
+    position: absolute;
+}
+
+.custom-lane-in-s h4 span {
+    top: 3px;
+    position: relative;
+}
+
+.input-kota label {
+    float: left;
+    margin-right: 10px;
+    margin-top: 4px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.input-kota input {
+    width: 65%;
+    height: 30px;
+    font-size: 11px;
+}
+
+.tooltip.top {
+    padding: 5px 0;
+    margin-top: -3px;
+    left: 15px !important;
+}
+
+
+/*==========Indent Planning=============*/
+
+.indent-p-se-in {
+    width: 100%;
+    padding: 2px;
+}
+
+.indent-p-se-in select {
+    width: 100%;
+    border-radius: 0px;
+    font-size: 13px;
+    height: 40px;
+    border: 1px solid #acadb1;
+    color: #999;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.indent-p-se-in p {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.indent-p-se-in label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.indent-p-se-in textarea {
+    font-size: 13px;
+    text-align: left;
+    line-height: 22px;
+    border: 1px solid #acadb1;
+    height: 40px;
+}
+
+.indent-p-se-in input {
+    width: 100%;
+    border-radius: 0px;
+    font-size: 13px;
+    height: 40px;
+    border: 1px solid #acadb1;
+    color: #999;
+    font-weight: normal;
+    padding-left: 12px;
+}
